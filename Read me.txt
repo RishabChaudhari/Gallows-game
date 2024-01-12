@@ -1,0 +1,11 @@
+Information about Gallows Game:
+Hangman's origins are uncertain, but Tony Augarde suggests it arose in the Victorian era. 
+
+Implementation:
+Hangman game using Python programming language. This is a simple project that beginners can use to improve their programming and logic comprehension.  
+A secret word is chosen at random by the Hangman program from a list of secret words. This capability will be offered via the random module.
+
+The Game: 
+Here, a random word (a movie name) is picked up from our collection and the player gets limited chances to win the game.
+When a letter in that word is guessed correctly, that letter's position in the word is made visible. In this way, all letters of the word are to be guessed before all the chances are over. 
+For convenience, we have given the length of the word + 2 chances. For example, if the word to be guessed is dunki, then the user gets 5 + 2 = 7 chances, as dunki is a five-letter word.
